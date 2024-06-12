@@ -1,6 +1,6 @@
 ---
 layout: page
-title: qqwui.github.io 2
+title: Home
 ---
 
 Someday,this will be a gallery of all the websites I have created, each with their own explaination on how they came to be. This will also probably be my personal site too with logs of my projects and general life.
