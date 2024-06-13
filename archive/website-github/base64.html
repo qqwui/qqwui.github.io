@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <script>
+    function encode() {
+      var encodestr = window.prompt("Type something to encode");
+      if (!encodestr == null || !encodestr == "") {
+        var out = window.btoa(encodestr);
+        document.getElementById("output").innerHTML = "Encoded: " + out;
+      }  
+    }
+    
+    function decode() {
+      var decodestr = window.prompt("Type something to decode");
+      if (!decodestr == null || !decodestr == "") {
+        var out = window.atob(decodestr);
+        document.getElementById("output").innerHTML = "Decoded: " + out;
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav">
+        <li class="ulnav"><a href="index.html">Home</a></li>
+        <li class="ulnav"><a href="about.html">About</a></li>
+        <li class="ulnav"><a href="links.html">Links</a></li>
+      </ul>
+    </nav>
+    <h1>Base64 converter</h1>
+    <p id="output"></p>
+    <p><button onclick="encode()">encode</button>&nbsp;<button onclick="decode()">decode</button></p>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <style>
+    div {
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
+    </style>
+    <script>
+    function getCoor(e) {
+  var x = e.clientX;
+  var y = e.clientY;
+  var coor = "Coordinates: (" + x + "," + y + ")";
+  document.getElementById("demo").innerHTML = coor;
+}
+    </script>
+  </head>
+  <body>
+    <div onmousemove="getCoor(event)"></div>
+    <p id="demo"></p>
+    <button onclick="window.close()">Close</button>
+  </body>
+</html>

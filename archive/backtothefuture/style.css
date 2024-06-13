@@ -1,0 +1,4 @@
+img.right {float: right; clear: right; display: block; margin: 10px 5px 10px 5px;}
+blockquote::before {content: url("left-mark.png");}
+blockquote::after {content : url("right-mark.png");}
+.box {padding: 5px; border: solid 2px;}

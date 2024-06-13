@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script>
+			function change(img) {
+				img.src = "images/smiley.png";
+			}
+		</script>
+    </head>
+    <body>
+        <div class="content">
+            <header>
+				
+                <h1><a href="index.html"><img src="images/Picture1.png"></a>Harry Potter Fan Club</h1>
+            </header>
+            <nav>
+				<a href="index.html">Home</a>
+                <a href="forum.html">Forum</a>
+                <a href="gallary.html" class="active">Gallery</a>
+				<a href="#" style="float: right;">Add Photo</a>
+				<img src="images/Picture4.png" width="50" height="50" style="float: right;" onclick="change(this)">
+            </nav>
+            <aside class="left">
+			<div>
+				<p>Recent Posts</p>
+				<p>Proin tincidunt, dolor sed condimentum auctor, nisi metus consequat turpis, a pretium lectus urna eu nunc.</p>
+			</div>
+			<div class="line"></div>
+			<div>
+				<p>Latest Activity</p>
+				<p>Proin tincidunt, dolor sed condimentum auctor, nisi metus consequat turpis, a pretium lectus urna eu nunc.</p>
+			</div>
+			<div class="line"></div>
+			<div>
+				<p>Newest Pictures</p>
+				<p><img src="images/Picture2.png"></p>
+			</div>
+            </aside>
+            <main>
+                <article>
+                    <h1>Gallery</h1>
+                    <h3>Newest Editions</h3>
+					<div class="gallery">
+						<img src="images/Picture5.jpg">
+						<img src="images/Picture2.png">
+					</div>
+					<h3>Most Popular</h3>
+					<div class="gallery">
+						<img src="images/Picture6.jpg">
+					</div>
+                </article>
+            </main>
+            <footer>
+				<p><a href="about.html">About Us</a> | <a href="#">Privacy Policy</a> | <a href="#">Code of Conduct</a> | <a href="contact.html">Contact Us</a></p>
+				<p>&copy;2019 Quan's Awesome Designs
+			</footer>
+        </div>
+    </body>
+</html>
