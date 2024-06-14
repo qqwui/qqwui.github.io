@@ -18,12 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Clue's Archive
+title: Clue's Corner
 author: 
   name: Clue Doe
   #email: your-email@example.com
+
 description: >- # this means to ignore newlines until "baseurl:"
-  An archive of all my silly shenanigans.
+  My little corner of the internet.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -59,8 +61,3 @@ plugins:
 #   - vendor/ruby/
 
 # include:
-
-# Navigation
-# header_pages:
-#   - posts.md
-#   - about.markdown
