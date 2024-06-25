@@ -1,0 +1,3 @@
+// this originally got rid of the code.org bar on the bottom of the page, but i got rid of the code prepended to the pages that did that when i archived this site.
+// unfortunately i cant open the original project, so you'll never be able to see what this originally contained, not like it ever worked. I was very dumb back in 2019 
+// This is here as a placeholder so I dont get tons of 404 errors when it tries and get the script
