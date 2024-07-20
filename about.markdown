@@ -13,5 +13,5 @@ The website is hosted on [Github Pages](https://pages.github.com) and the code i
 ## About me
 Well, I'm just a person with an inability to focus who likes messing with computers. I guess the two go together pretty well.
 
-I've put this on every other website here, so might as well continue the tradition:
+I've put this on every other website here, so might as well continue the tradition:<br>
 <a href='http://internetometer.com/give/47224' target="_blank"><img src='http://internetometer.com/image/47224.png' alt="Donate an internet"></a>
