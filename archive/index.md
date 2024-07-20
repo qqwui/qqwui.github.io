@@ -12,3 +12,4 @@ Here's a directory listing while I procrastinate writing up descriptions for the
 - [website-code.org](/archive/website-code.org)
 - [website-github](/archive/website-github)
 - [websites](/archive/websites)
+- [HTML Clock](/archive/HTML_clock.html)
