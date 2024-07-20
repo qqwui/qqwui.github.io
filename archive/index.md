@@ -13,3 +13,4 @@ Here's a directory listing while I procrastinate writing up descriptions for the
 - [website-github](/archive/website-github)
 - [websites](/archive/websites)
 - [HTML Clock](/archive/HTML_clock.html)
+- [lines canvas demo](/archive/lines/lines.html)
